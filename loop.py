@@ -12,10 +12,7 @@ for item in range(4,13,3):
 else:
     print("yeah,done")
 
-str = input("enter text:")
-for ch in str:
-    if ch in "AEIOUaeiou":
-        vowels +=1
+ str ="UDRINDIA@20"
+ for ch in str:
+    if ch in "AEIOU":
         print(ch, end="")    
-else:
-    print("\n vowels : %d" %vowels)
